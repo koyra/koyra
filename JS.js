@@ -1,6 +1,6 @@
 //Javascript functions
 //Image slide show function
-var images=["../image/slide1.jpg","../image/slide2.jpg","../image/slide3.jpg","../image/slide4.jpg","../image/slide5.jpg","../image/slide6.jpg"];
+var images=["image/slide1.jpg","image/slide2.jpg","image/slide3.jpg","image/slide4.jpg","image/slide5.jpg","image/slide6.jpg"];
 var index=0;
 var L= images.length -1;
 
