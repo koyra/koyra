@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>calculating the area of a circle</title>
+    <!-- Provide list of keywords -->
+
+		<meta name="keywords" content="computer science, personal website,javascript,example,exercise,calculate, circle, trip,asterisk,order, area of circle, cost of trip, even number, square asterisk, BMI,change,pizza order"><!-- Provide description of the page -->
+		<meta name="description" content="Personal website">
+<!-- Page content type -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	
+	    <link rel="icon" href="../image/logo_teki3.png" type="image/x-icon"> 
+    	
+    	<script type="text/javascript" src="JS.js"></script>
+	</head>
+	<body>
+		<div id="wraper">
+    		<header id="header">
+        		<a href="index.html"><img src="../image/logo_teki3.png" /></a>
+	 	<div id="header_title"><h1>Personal Website</h1></div>	 			
+	 </header>
+	 <div id="menu">
+			 	<a href="index.html">&#9776;</a>
+			 	<div id="content">
+			 		<a href="index.html">Home</a>
+					<a href="About.html">About me</a>
+					<a href="Gallery.html">Gallery</a>
+					<a href="Hobby.html">Hobby</a>
+					<a href="Contact.html">Contact</a>
+					<a href="Jslinks.html">Js links</a>
+			 	</div>
+			 </div>
+
+
+    		<nav id="navigation">
+        		<a href="index.html">Home</a>
+				<a href="Gallery.html">Gallary</a>
+				<a href="About.html">About me</a>
+				<a href="Hobby.html">Hobby</a>
+				<a href="Contact.html">Contact</a>
+				<a href="Jslinks.html" style="margin-right:100px;">Js links</a>
+			</nav>
+
+    		<aside id="js_side">
+        		<h1>Javascript examples</h1>
+        		<a href="Area of a circle.html">Area of a circle</a>
+        		<a href="Cost of trip.html" style="background-color:#fff; color:#111;">Cost of a single trip</a>
+        		<a href="even number.html">Display even numbers</a>
+        		<a href="Asterisk.html">Display square asterisks</a>
+        		<a href="BMI.html">BMI Calcualtor</a>
+        		<a href="Change.html">Make Change</a>
+        		<a href="Pizza order.html">Pizza order</a>
+    		</aside>
+   
+   			<div id="js_content">
+    			<fieldset>
+    				<legend>Cost of a single trip</legend>
+                    <p>Cost of a single trip is calculated using three inputs those are 
+                    Distance of the trip, Cost of gallon gas and the car consumption in kilometer per gallon</p>
+
+                    <h2 >Calculate cost</h2>
+                    	
+					Number of Km : &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;  &#160; &#160; <input type="number" id="kilometer" maxlength="5"  placeholder="distance"><br/><br/>
+					Cost of a gallon gas : &#160; &#160; &#160; &#160; &#160; &#160;&#160; <input type="number"  id="cost" maxlength="5" placeholder="cost of gallon"><br/><br/>
+					Car gas consumption(Km/g) :<input type="number" id="consumption" maxlength="5" placeholder="consumption"><br/><br/>
+					<button onclick="computeCost()">Compute cost</button><br/><br/>
+    			</fieldset>
+    			<p>Cost a spacific trip =<span id="result"></span></p>
+    		</div>
+    		
+    		<footer id="footer">
+                <p>Developer Teklit.M &copy 2009 Ec</p> 
+    		</footer>
+		</div>
+	</body>
+</html>
